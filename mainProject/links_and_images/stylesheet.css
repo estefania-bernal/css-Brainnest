@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'negrita';
+    src: url(../Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'lightItalic';
+    src: url(../Roboto-LightItalic.ttf);
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    color: white;
+    background-color: #1F2937;
+    padding: 40px;
+}
+
+.navbar .principal {
+    font-family: 'bold';
+    font-size: 18px;
+    margin: 5px;
+}
+
+.navbar p {
+    font-family: 'regular';
+    font-size: 13px;
+    padding: 5px;
+}
+
+.contenidoheader1 {
+    padding: auto;
+    text-align: left;
+    margin: 40px;
+}
+
+.contenidoheader1 h1 {
+    font-family: 'bold';
+    font-size: 30px;
+    margin: 5px;
+}
+
+.contenidoheader1 h4 {
+    font-family: 'regular';
+    font-size: 13px;
+    margin: 5px;
+}
+
+.contenidoheader1 button {
+    background-color: #3882F6;
+    border-radius: 15px;
+    border: none;
+    font-family: 'regular';
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+.contenidoheader2 {
+    text-align: right;
+    padding: 40px;
+}
+
+.titleContent {
+    text-align: center;
+    font-family: 'bold';
+    font-size: 15px;
+}
+
+.contentBody {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+    margin: 50px;
+}
+
+.contentBody p {
+    font-family: 'regular';
+    font-size: 13px;
+    margin: 5px;
+}
+
+.contentBody2 {
+    text-align: center;
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.contentBody2 .principal {
+    text-align: justify;
+    font-family: 'lightItalic';
+    font-size: 30px;
+    display: block;
+    margin: auto;
+}
+
+.contentBody2 .secundario {
+    text-align: right;
+    font-family: 'negrita';
+    font-size: 20px;
+}
+
+.footer {
+    background: #3882F6;
+    margin: 60px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.footer .principal {
+    text-align: left;
+    font-family: 'bold';
+    font-size: 15px;
+    color: white;
+}
+
+.footer .secundario {
+    text-align: left;
+    font-family: 'regular';
+    font-size: 10px;
+    color: white;
+}
+
+.footerp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.footer button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: white;
+    font-family: 'regular';
+    font-size: 12px;
+    padding: 5px;
+    margin: auto;
+    color: white;
+}
+
+.footer2 {
+    background: #1F2937;
+    padding: 10px;
+    text-align: center;
+    font-family: 'regular';
+    font-size: 12px;
+    color: white;
+}
